@@ -34,7 +34,7 @@ if q1 == "c":
   score = score + 1
   print("Score:" + str(score))
 else:
-  print("Essaie encore!")
+  print("Mauvaise reponse!")
   print("Score:" + str(score))
 
 time.sleep(2)
@@ -51,7 +51,7 @@ if q2 == "a":
   score = score + 1
   print("Score:" + str(score))
 else:
-  print("Essaie encore!")
+  print("Mauvaise reponse!")
   print("Score:" + str(score))
 
 time.sleep(2)
@@ -61,7 +61,7 @@ print("""
 q3 = raw_input("""
 Dans l'etape de Telophase I, les cellules filles sont:
 a) diploides
-b) hiploides :)
+b) hiploides
 c) haploides
 """)
 if q3 == "c":
@@ -69,7 +69,7 @@ if q3 == "c":
   score = score + 1
   print("Score:" + str(score))
 else:
-  print("Essaie encore!")
+  print("Mauvaise reponse!")
   print("Score:" + str(score))
 
 time.sleep(2)
@@ -88,7 +88,7 @@ if q4 == "b":
   score = score + 1
   print("Score:" + str(score))
 else:
-  print("Essaie encore!")
+  print("Mauvaise reponse!")
   print("Score:" + str(score))
 
 time.sleep(2)
@@ -107,7 +107,7 @@ if q5 == "d":
   score = score + 1
   print("Score:" + str(score))
 else:
-  print("Essaie encore!")
+  print("Mauvaise reponse!")
   print("Score:" + str(score))
 
 time.sleep(2)
@@ -124,7 +124,7 @@ if q6 == "b":
   score = score + 1
   print("Score:" + str(score))
 else:
-  print("Essaie encore!")
+  print("Mauvaise reponse!")
   print("Score:" + str(score))
 
 time.sleep(2)
@@ -141,5 +141,79 @@ if q7 == "a":
   score = score + 1
   print("Score:" + str(score))
 else:
-  print("Essaie encore!")
+  print("Mauvaise reponse!")
   print("Score:" + str(score))
+
+time.sleep(2)
+print("""
+
+8e question""")
+q8 = raw_input("""
+Comment peut-on decrire la meiose ?
+   a) une division rationnelle
+   b) une division equationnelle
+   c) une division reductionnelle
+""")
+if q8 == "b" or "c":
+  print("Bonne reponse!")
+  score = score + 1
+  print("Score:" + str(score))
+else:
+  print("Mauvaise reponse!")
+  print("Score:" + str(score))
+
+  time.sleep(2)
+  print("""
+
+  9e question""")
+  q9 = raw_input("""
+  Dans quel etape se produit les haploides de chromosomes répliqués?
+   a) Prophase II
+   b) Télophase I
+   c) Anaphase II
+  """)
+  if q9 == "b":
+    print("Bonne reponse!")
+    score = score + 1
+    print("Score:" + str(score))
+  else:
+    print("Mauvaise reponse!")
+    print("Score:" + str(score))
+
+  time.sleep(2)
+  print("""
+
+  10e question""")
+  q10 = raw_input("""
+  Qu'est-ce qu'une cellule diploide?
+   a) 2n chromosomes
+   b) n chromosomes
+   c) 4n chromosomes
+   d) 3n chromosomes
+  """)
+  if q10 == "a":
+    print("Bonne reponse!")
+    score = score + 1
+    print("Score:" + str(score))
+  else:
+    print("Mauvaise reponse!")
+    print("Score:" + str(score))
+
+ time.sleep(2)
+ print("""
+
+ 11e question""")
+ q11 = raw_input("""
+ Qu'est-ce qu'une cellule haploide?
+  a) 2n chromosomes a 1 chromatide
+  b) n chromosomes
+  c) 4n chromosomes
+  d) 3n chromosomes
+ """)
+ if q11 == "b":
+   print("Bonne reponse!")
+   score = score + 1
+   print("Score:" + str(score))
+ else:
+   print("Mauvaise reponse!")
+   print("Score:" + str(score))
