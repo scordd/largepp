@@ -1,7 +1,5 @@
 #!/usr/bin/python
-# -*- coding: ascii -*-
-# -*- coding: latin-1 -*-
-# -*- coding: utf-42 -*-
+# -*- coding: utf-8 -*-
 
 import time
 import sys
@@ -33,7 +31,7 @@ if q1 == "c":
   print("Bonne reponse!")
   score = score + 1
   print("Score:" + str(score))
-  else:
+else:
   print("Mauvaise reponse!")
   print("Score:" + str(score))
 
@@ -50,7 +48,7 @@ if q2 == "a":
   print("Bonne reponse!")
   score = score + 1
   print("Score:" + str(score))
-  else:
+else:
   print("Mauvaise reponse!")
   print("Score:" + str(score))
 
@@ -68,7 +66,7 @@ if q3 == "c":
   print("Bonne reponse!")
   score = score + 1
   print("Score:" + str(score))
-  else:
+else:
   print("Mauvaise reponse!")
   print("Score:" + str(score))
 
@@ -87,7 +85,7 @@ if q4 == "b":
   print("Bonne reponse!")
   score = score + 1
   print("Score:" + str(score))
-  else:
+else:
   print("Mauvaise reponse!")
   print("Score:" + str(score))
 
@@ -106,7 +104,7 @@ if q5 == "d":
   print("Bonne reponse!")
   score = score + 1
   print("Score:" + str(score))
-  else:
+else:
   print("Mauvaise reponse!")
   print("Score:" + str(score))
 
@@ -123,7 +121,7 @@ if q6 == "b":
   print("Bonne reponse!")
   score = score + 1
   print("Score:" + str(score))
-  else:
+else:
   print("Mauvaise reponse!")
   print("Score:" + str(score))
 
@@ -132,7 +130,7 @@ print("""
 
 7e question""")
 q7 = input("""
-La prophase I prend 90% de la duree totale de la meiose.
+La prophase I prend 90 pourcent de la duree totale de la meiose.
 a) vrai
 b) faux
 """)
@@ -140,7 +138,7 @@ if q7 == "a":
   print("Bonne reponse!")
   score = score + 1
   print("Score:" + str(score))
-  else:
+else:
   print("Mauvaise reponse!")
   print("Score:" + str(score))
 
@@ -158,7 +156,7 @@ if q8 == "b" or "c":
   print("Bonne reponse!")
   score = score + 1
   print("Score:" + str(score))
-  else:
+else:
   print("Mauvaise reponse!")
   print("Score:" + str(score))
 
@@ -176,7 +174,7 @@ if q9 == "b":
   print("Bonne reponse!")
   score = score + 1
   print("Score:" + str(score))
-  else:
+else:
   print("Mauvaise reponse!")
   print("Score:" + str(score))
 
@@ -195,7 +193,7 @@ if q10 == "a":
   print("Bonne reponse!")
   score = score + 1
   print("Score:" + str(score))
-  else:
+else:
   print("Mauvaise reponse!")
   print("Score:" + str(score))
 
@@ -211,104 +209,104 @@ c) 4n chromosomes
 d) 3n chromosomes
 """)
 if q11 == "b":
-print("Bonne reponse!")
-score = score + 1
-print("Score:" + str(score))
+  print("Bonne reponse!")
+  score = score + 1
+  print("Score:" + str(score))
 else:
-print("Mauvaise reponse!")
-   print("Score:" + str(score))
+  print("Mauvaise reponse!")
+  print("Score:" + str(score))
 
- time.sleep(2)
- print("""
+time.sleep(2)
+print("""
 
- 12e question""")
- q12 = input("""
- Quelle est la definition de la meiose?
-  a) La succession de deux replications precedees d'une unique division
-  b) Permet obtention de gametes haploides
-  c) Permet obtention de gametes diploides
-  d) Succession de deux divisions precedees d'une unique replication
- """)
- if q12 == "b" or "d":
-   print("Bonne reponse!")
-   score = score + 1
-   print("Score:" + str(score))
- else:
-   print("Mauvaise reponse!")
-   print("Score:" + str(score))
+12e question""")
+q12 = input("""
+Quelle est la definition de la meiose?
+a) La succession de deux replications precedees d'une unique division
+b) Permet obtention de gametes haploides
+c) Permet obtention de gametes diploides
+d) Succession de deux divisions precedees d'une unique replication
+""")
+if q12 == "b" or "d":
+  print("Bonne reponse!")
+  score = score + 1
+  print("Score:" + str(score))
+else:
+  print("Mauvaise reponse!")
+  print("Score:" + str(score))
 
- time.sleep(2)
- print("""
+time.sleep(2)
+print("""
 
- 13e question""")
- q13 = input("""
- Qu'est ce qu'on obtient apres la premiere division de la meiose?
-  a) 2 cellules a n chromosomes a deux chromatides
-  b) 4 cellules a 2n chromosomes a une chromatide
-  c) 2 cellules a 2n chromosomes a une chromatide
-  d) 4 cellules a n chromosomes a une chromatide
- """)
- if q13 == "a":
-   print("Bonne reponse!")
-   score = score + 1
-   print("Score:" + str(score))
- else:
-   print("Mauvaise reponse!")
-   print("Score:" + str(score))
+13e question""")
+q13 = input("""
+Qu'est ce qu'on obtient apres la premiere division de la meiose?
+a) 2 cellules a n chromosomes a deux chromatides
+b) 4 cellules a 2n chromosomes a une chromatide
+c) 2 cellules a 2n chromosomes a une chromatide
+d) 4 cellules a n chromosomes a une chromatide
+""")
+if q13 == "a":
+  print("Bonne reponse!")
+  score = score + 1
+  print("Score:" + str(score))
+else:
+  print("Mauvaise reponse!")
+  print("Score:" + str(score))
 
- time.sleep(2)
- print("""
+time.sleep(2)
+print("""
 
- 14e question""")
- q14 = input("""
- Le noyau d'un ovule humain renferme ...
- a) 23 chromosomes dont un chromosome X.
- b) 23 chromosomes dont un chromosome X ou Y.
- c) 22 Chromosomes dont un chromosome X.
- """)
- if q14 == "a":
-   print("Bonne reponse!")
-   score = score + 1
-   print("Score:" + str(score))
- else:
-   print("Mauvaise reponse!")
-   print("Score:" + str(score))
+14e question""")
+q14 = input("""
+Le noyau d'un ovule humain renferme ...
+a) 23 chromosomes dont un chromosome X.
+b) 23 chromosomes dont un chromosome X ou Y.
+c) 22 Chromosomes dont un chromosome X.
+""")
+if q14 == "a":
+  print("Bonne reponse!")
+  score = score + 1
+  print("Score:" + str(score))
+else:
+  print("Mauvaise reponse!")
+  print("Score:" + str(score))
 
- time.sleep(2)
- print("""
+time.sleep(2)
+print("""
 
- 15e question""")
- q15 = input("""
- Le noyau des gamètes humains possedent ...
- a) 46 chromosomes.
- b) 23 chromosomes dont un chromosome sexuel.
- c) 23 paires de chromosomes dont une paire de chromosomes sexuels.
- """)
- if q15 == "c":
-   print("Bonne reponse!")
-   score = score + 1
-   print("Score:" + str(score))
- else:
-   print("Mauvaise reponse!")
-   print("Score:" + str(score))
+15e question""")
+q15 = input("""
+Le noyau des gamètes humains possedent ...
+a) 46 chromosomes.
+b) 23 chromosomes dont un chromosome sexuel.
+c) 23 paires de chromosomes dont une paire de chromosomes sexuels.
+""")
+if q15 == "c":
+  print("Bonne reponse!")
+  score = score + 1
+  print("Score:" + str(score))
+else:
+  print("Mauvaise reponse!")
+  print("Score:" + str(score))
 
- time.sleep(2)
- print("""
+time.sleep(2)
+print("""
 
- 16e question""")
- q16 = input("""
- Le sexe d'un enfant a naitre est determine par ...
- a) Le chromosome sexuel contenu dans le spermatozoide.
- b) Le chromosome sexuel contenu dans l'ovule.
- c) Le hasard au cours du developpement embryonnaire.
- """)
- if q16 == "c":
-   print("Bonne reponse!")
-   score = score + 1
-   print("Score:" + str(score))
- else:
-   print("Mauvaise reponse!")
-   print("Score:" + str(score))
+16e question""")
+q16 = input("""
+Le sexe d'un enfant a naitre est determine par ...
+a) Le chromosome sexuel contenu dans le spermatozoide.
+b) Le chromosome sexuel contenu dans l'ovule.
+c) Le hasard au cours du developpement embryonnaire.
+""")
+if q16 == "c":
+  print("Bonne reponse!")
+  score = score + 1
+  print("Score:" + str(score))
+else:
+  print("Mauvaise reponse!")
+  print("Score:" + str(score))
 
 time.sleep(2)
 print("""
@@ -327,3 +325,15 @@ if q17 == "b":
 else:
   print("Mauvaise reponse!")
   print("Score:" + str(score))
+
+time.sleep(2)
+print("""
+
+18e question""")
+q18 = input("""
+La méiose produit :
+a) 4 cellules haploïdes à partir d’une cellule diploïde. 
+b) 2 cellules diploïdes à partir d’une cellule diploïde. 
+c) 4 cellules diploïdes à partir d’une cellule diploïde. 
+d) 2 cellules haploïdes à partir d’une cellule diploïde. 
+""")
