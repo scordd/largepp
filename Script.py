@@ -5,6 +5,9 @@ import time
 import sys
 
 score = 0
+nom = ""
+jeu = 0
+jeu2= 0
 
 print("""
  _                     __  __   ______   _____    ____     _____   ______
@@ -15,6 +18,21 @@ print("""
 |______| /_/    \_\   |_|  |_| |______| |_____|  \____/  |_____/  |______|
 """)
 print("Cree par Jacques Blasset et Sava Rozsnyai - Sciences 9C")
+
+jeu = input("""
+Es-ce que vous voulez joue?
+y=1/n=2
+""")
+if int(jeu) == 1:
+  print("OK!")
+elif int(jeu) == 0:
+  print("au revoir!")
+  exit()
+
+time.sleep(2)
+
+nom = input("""
+Ecrire ton nom ici!: """)
 
 time.sleep(2)
 print("""
@@ -148,9 +166,9 @@ print("""
 8e question""")
 q8 = input("""
 Comment peut-on decrire la meiose ?
-   a) une division rationnelle
-   b) une division equationnelle
-   c) une division reductionnelle
+a) une division rationnelle
+b) une division equationnelle
+c) une division reductionnelle
 """)
 if q8 == "b" or "c":
   print("Bonne reponse!")
@@ -337,3 +355,86 @@ b) 2 cellules diploïdes à partir d’une cellule diploïde.
 c) 4 cellules diploïdes à partir d’une cellule diploïde. 
 d) 2 cellules haploïdes à partir d’une cellule diploïde. 
 """)
+if q18 == "a":
+  print("Bonne reponse!")
+  score = score + 1
+  print("Score:" + str(score))
+else:
+  print("Mauvaise reponse!")
+  print("Score:" + str(score))
+
+time.sleep(2)
+print("""
+
+19e question""")
+q19 = input("""
+durant quel phase de la méiose y a t'il un enjambement entre des chromosomes 
+a) prophase 1
+b) interphase
+c) anaphase 2
+d) telophase 1
+""")
+if q19 == "a":
+  print("Bonne reponse!")
+  score = score + 1
+  print("Score:" + str(score))
+else:
+  print("Mauvaise reponse!")
+  print("Score:" + str(score))
+
+time.sleep(2)
+print("""
+
+20e question""")
+q20 = input("""
+C'est quoi le but de la division cellulaire?
+a)reparer
+b)grandire
+c)ranplacer
+""")
+if q20 == "a" or "b" or "c":
+  print("Bonne reponse!")
+  score = score + 1
+  print("Score:" + str(score))
+else:
+  print("Mauvaise reponse!")
+  print("Score:" + str(score))
+
+time.sleep(2)
+print("""
+Bravo! Tu as fini le jeu!
+""")
+
+time.sleep(2)
+
+jeu2 = input("""
+Es-ce que tu veux voir ton score?
+y=1/n=2
+""")
+if int(jeu2) == 1:
+  if score >=17 and score <=20:
+    print("Votre note est: A")
+    print("Score:" + str(score))
+  elif score >=15 and score <=17:
+    print("Votre note est: B")
+    print("Score:" + str(score))
+  elif score >=13 and score <=15:
+    print("Votre note est: C")
+    print("Score:" + str(score))
+  elif score >=9 and score <=13:
+    print("Votre note est: D")
+    print("Score:" + str(score))
+  elif score <=9:
+    print("Votre note est: F")
+    print("Score:" + str(score))
+  else:
+    print("Votre note est: F")
+elif int(jeu) == 0:
+  print("au revoir!")
+  exit()
+
+print("""
+Merci d'avoir jouer, " + nom
+""")
+
+time.sleep(2)
