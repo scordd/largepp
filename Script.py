@@ -167,10 +167,10 @@ else:
 
   9e question""")
   q9 = raw_input("""
-  Dans quel etape se produit les haploides de chromosomes répliqués?
-   a) Prophase II
-   b) Télophase I
-   c) Anaphase II
+  Dans quel etape se produit les haploides de chromosomes repliques?
+   a) Prophase 1
+   b) Telophase 1
+   c) Anaphase 2
   """)
   if q9 == "b":
     print("Bonne reponse!")
@@ -217,3 +217,113 @@ else:
  else:
    print("Mauvaise reponse!")
    print("Score:" + str(score))
+
+ time.sleep(2)
+ print("""
+
+ 12e question""")
+ q12 = raw_input("""
+ Quelle est la definition de la meiose?
+  a) La succession de deux replications precedees d'une unique division
+  b) Permet obtention de gametes haploides
+  c) Permet obtention de gametes diploides
+  d) Succession de deux divisions precedees d'une unique replication
+ """)
+ if q12 == "b" or "d":
+   print("Bonne reponse!")
+   score = score + 1
+   print("Score:" + str(score))
+ else:
+   print("Mauvaise reponse!")
+   print("Score:" + str(score))
+
+ time.sleep(2)
+ print("""
+
+ 13e question""")
+ q13 = raw_input("""
+ Qu'est ce qu'on obtient apres la premiere division de la meiose?
+  a) 2 cellules a n chromosomes a deux chromatides
+  b) 4 cellules a 2n chromosomes a une chromatide
+  c) 2 cellules a 2n chromosomes a une chromatide
+  d) 4 cellules a n chromosomes a une chromatide
+ """)
+ if q13 == "a":
+   print("Bonne reponse!")
+   score = score + 1
+   print("Score:" + str(score))
+ else:
+   print("Mauvaise reponse!")
+   print("Score:" + str(score))
+
+ time.sleep(2)
+ print("""
+
+ 14e question""")
+ q14 = raw_input("""
+ Le noyau d'un ovule humain renferme ...
+ a) 23 chromosomes dont un chromosome X.
+ b) 23 chromosomes dont un chromosome X ou Y.
+ c) 22 Chromosomes dont un chromosome X.
+ """)
+ if q14 == "a":
+   print("Bonne reponse!")
+   score = score + 1
+   print("Score:" + str(score))
+ else:
+   print("Mauvaise reponse!")
+   print("Score:" + str(score))
+
+ time.sleep(2)
+ print("""
+
+ 15e question""")
+ q15 = raw_input("""
+ Le noyau des gamètes humains possedent ...
+ a) 46 chromosomes.
+ b) 23 chromosomes dont un chromosome sexuel.
+ c) 23 paires de chromosomes dont une paire de chromosomes sexuels.
+ """)
+ if q15 == "c":
+   print("Bonne reponse!")
+   score = score + 1
+   print("Score:" + str(score))
+ else:
+   print("Mauvaise reponse!")
+   print("Score:" + str(score))
+
+ time.sleep(2)
+ print("""
+
+ 16e question""")
+ q16 = raw_input("""
+ Le sexe d'un enfant a naitre est determine par ...
+ a) Le chromosome sexuel contenu dans le spermatozoide.
+ b) Le chromosome sexuel contenu dans l'ovule.
+ c) Le hasard au cours du developpement embryonnaire.
+ """)
+ if q16 == "c":
+   print("Bonne reponse!")
+   score = score + 1
+   print("Score:" + str(score))
+ else:
+   print("Mauvaise reponse!")
+   print("Score:" + str(score))
+
+time.sleep(2)
+print("""
+
+17e question""")
+q17 = raw_input("""
+Le noyau d'un spermatozoide humain renferme ...
+a) 23 chromosomes dont un chromosome X.
+b) 23 chromosomes dont un chromosome X ou Y.
+c) 22 chromosomes dont un chromosome X ou Y.
+""")
+if q17 == "b":
+  print("Bonne reponse!")
+  score = score + 1
+  print("Score:" + str(score))
+else:
+  print("Mauvaise reponse!")
+  print("Score:" + str(score))
